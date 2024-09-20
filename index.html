@@ -1,70 +1,65 @@
 <!DOCTYPE html>
 <html lang="en">
 
-    <head>
-        <meta charset="utf-8">
-        <title>Mailler - SaaS Website Template</title>
-        <meta content="width=device-width, initial-scale=1.0" name="viewport">
-        <meta content="" name="keywords">
-        <meta content="" name="description">
+<head>
+    <meta charset="utf-8">
+    <title>Mailler - SaaS Email Marketing Platform</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="Email Marketing, SaaS, Mailler" name="keywords">
+    <meta content="Transform your email marketing with Mailler." name="description">
 
-        <!-- Google Web Fonts -->
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@500;600;700&family=Rubik:wght@400;500&display=swap" rel="stylesheet"> 
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@500;600;700&family=Rubik:wght@400;500&display=swap" rel="stylesheet">
 
-        <!-- Icon Font Stylesheet -->
-        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"/>
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+    <!-- Icon Font Stylesheet -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"/>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
 
-        <!-- Libraries Stylesheet -->
-        <link href="lib/animate/animate.min.css" rel="stylesheet">
-        <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
-        <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+    <!-- Libraries Stylesheet -->
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
 
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
 
-        <!-- Customized Bootstrap Stylesheet -->
-        <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+</head>
 
-        <!-- Template Stylesheet -->
-        <link href="css/style.css" rel="stylesheet">
-    </head>
+<body>
 
-    <body>
+    <!-- Spinner Start -->
+    <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+        <div class="spinner-border text-primary" style="width: 3rem; height: 3rem;" role="status">
+            <span class="sr-only">Loading...</span>
+        </div>
+    </div>
+    <!-- Spinner End -->
 
-        <!-- Spinner Start -->
-        <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
-            <div class="spinner-border text-primary" style="width: 3rem; height: 3rem;" role="status">
-                <span class="sr-only">Loading...</span>
+    <!-- Navbar Start -->
+    <nav class="navbar navbar-expand-lg fixed-top navbar-light px-4 px-lg-5 py-3 py-lg-0">
+        <a href="index.html" class="navbar-brand p-0">
+            <h1 class="display-6 text-primary m-0"><i class="fas fa-envelope me-3"></i>Mailler</h1>
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+            <span class="fa fa-bars"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+            <div class="navbar-nav mx-auto py-0">
+                <a href="index.html" class="nav-item nav-link active" style="font-size: 24px;">Home</a>
+                <a href="service.html" class="nav-item nav-link" style="font-size: 24px;">Services</a>
+                <a href="about.html" class="nav-item nav-link" style="font-size: 24px;">About</a>
+                <a href="blog.html" class="nav-item nav-link" style="font-size: 24px;">Blogs</a>
+                <a href="contact.html" class="nav-item nav-link" style="font-size: 24px;">Contact Us</a>
             </div>
         </div>
-        <!-- Spinner End -->
+    </nav>
+    <!-- Navbar End -->
 
-
-        <!-- Navbar & Hero Start -->
-        <div class="container-fluid header position-relative overflow-hidden p-0">
-            <nav class="navbar navbar-expand-lg fixed-top navbar-light px-4 px-lg-5 py-3 py-lg-0">
-                <a href="index.html" class="navbar-brand p-0">
-                    <h1 class="display-6 text-primary m-0"><i class="fas fa-envelope me-3"></i>Mailler</h1>
-                </a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
-                    <span class="fa fa-bars"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarCollapse">
-                    <div class="navbar-nav mx-auto py-0">
-                        <a href="index.html" class="nav-item nav-link active" style="font-size: 24px;">Home</a>
-                        <a href="service.html" class="nav-item nav-link" style="font-size: 24px;">Services</a>
-                        <a href="about.html" class="nav-item nav-link" style="font-size: 24px;">About</a>
-                        <a href="blog.html" class="nav-item nav-link" style="font-size: 24px;">Blogs</a>
-                        <a href="contact.html" class="nav-item nav-link" style="font-size: 24px;">Contact Us</a>
-                    </div>
-                </div>
-            </nav>
-            
-            
-
-
-            <!-- Hero Header Start -->
+    <!-- Hero Header Start -->
 <div class="hero-header overflow-hidden px-5">
     <div class="rotate-img">
         <img src="img/sty-1.png" class="img-fluid w-100" alt="Stylish Background">
@@ -74,7 +69,11 @@
         <div class="col-lg-6 wow fadeInLeft" data-wow-delay="0.1s">
             <h1 class="display-4 text-dark mb-4 wow fadeInUp" data-wow-delay="0.3s">Transform Your Emails into Profit</h1>
             <p class="fs-4 mb-4 wow fadeInUp" data-wow-delay="0.5s">Unlock new customer opportunities with the leading email marketing platform that helps you boost opens, clicks, and sales.</p>
-            <a href="contact.html" class="btn btn-primary rounded-pill py-3 px-5 wow fadeInUp" data-wow-delay="0.7s">Start Your Journey</a>
+            <div class="d-flex justify-content-center gap-3 wow fadeInUp" data-wow-delay="0.7s">
+                <a href="about.html" class="btn btn-primary rounded-pill py-3 px-4" style="flex: 1;">About Us</a>
+                <a href="service.html" class="btn btn-primary rounded-pill py-3 px-4" style="flex: 1;">Our Services</a>
+                <a href="contact.html" class="btn btn-primary rounded-pill py-3 px-4" style="flex: 1;">Get Started</a>
+            </div>
         </div>
         <div class="col-lg-6 wow fadeInRight" data-wow-delay="0.2s">
             <img src="img/hero-img-1.png" class="img-fluid w-100 h-100" alt="Email Marketing Illustration">
@@ -83,173 +82,151 @@
 </div>
 <!-- Hero Header End -->
 
-
- 
-<!-- Features and Statistics Start -->
-<div class="container-fluid py-5 bg-light">
-    <div class="container text-center">
-        <h4 class="text-primary">Our Offerings</h4>
-        <h1 class="display-5 mb-4">Why Choose Us</h1>
-        <div class="row g-4">
-            <!-- Feature Item 1 -->
-            <div class="col-md-4">
-                <div class="feature-item bg-white p-4 rounded shadow h-100">
-                    <i class="fas fa-bullhorn fa-3x mb-3"></i>
-                    <h5>Email Campaigns</h5>
-                    <p>Craft effective campaigns that engage your audience.</p>
-                </div>
-            </div>
-            <!-- Feature Item 2 -->
-            <div class="col-md-4">
-                <div class="feature-item bg-white p-4 rounded shadow h-100">
-                    <i class="fas fa-chart-line fa-3x mb-3"></i>
-                    <h5>Analytics</h5>
-                    <p>Track performance with detailed analytics.</p>
-                </div>
-            </div>
-            <!-- Feature Item 3 -->
-            <div class="col-md-4">
-                <div class="feature-item bg-white p-4 rounded shadow h-100">
-                    <i class="fas fa-users fa-3x mb-3"></i>
-                    <h5>Customer Support</h5>
-                    <p>Our team is here to help you every step of the way.</p>
-                </div>
-            </div>
-            <!-- Feature Item 4 -->
-            <div class="col-md-4">
-                <div class="feature-item bg-white p-4 rounded shadow h-100">
-                    <i class="fas fa-mobile-alt fa-3x mb-3"></i>
-                    <h5>Mobile Optimization</h5>
-                    <p>Ensure your emails look great on any device.</p>
-                </div>
-            </div>
-            <!-- Feature Item 5 -->
-            <div class="col-md-4">
-                <div class="feature-item bg-white p-4 rounded shadow h-100">
-                    <i class="fas fa-lock fa-3x mb-3"></i>
-                    <h5>Security</h5>
-                    <p>Your data is secure with our top-notch protections.</p>
-                </div>
-            </div>
-            <!-- Feature Item 6 -->
-            <div class="col-md-4">
-                <div class="feature-item bg-white p-4 rounded shadow h-100">
-                    <i class="fas fa-cogs fa-3x mb-3"></i>
-                    <h5>Automation</h5>
-                    <p>Automate your campaigns for maximum efficiency.</p>
-                </div>
-            </div>
-        </div>
-
-    </div>
-</div>
-<!-- Features and Statistics End -->
-
-
-
-
-        <!-- Testimonial Start -->
-<div class="container-fluid testimonial py-5">
-    <div class="container py-5">
-        <div class="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 900px;">
-            <h4 class="text-primary">Testimonials</h4>
-            <h1 class="display-5 mb-4">What Our Clients Say</h1>
-            <p class="mb-0">Our clients love us! Here’s what they have to say about their experience with our services.</p>
-        </div>
-        <div class="testimonial-carousel owl-carousel wow zoomInDown" data-wow-delay="0.2s">
-            <div class="testimonial-item" data-dot="<img class='img-fluid' src='img/testimonial-img-1.jpg' alt=''>">
-                <div class="testimonial-inner text-center p-5">
-                    <div class="d-flex align-items-center justify-content-center mb-4">
-                        <div class="testimonial-inner-img border border-primary border-3 me-4" style="width: 100px; height: 100px; border-radius: 50%;">
-                            <img src="img/testimonial-img-1.jpg" class="img-fluid rounded-circle" alt="">
-                        </div>
-                        <div>
-                            <h5 class="mb-2">John Abraham</h5>
-                            <p class="mb-0">New York, USA</p>
-                        </div>
-                    </div>
-                    <p class="fs-7">Working with this team was a game-changer. They helped us reach more customers and improve our email campaigns significantly!</p>
-                    <div class="text-center">
-                        <div class="d-flex justify-content-center">
-                            <i class="fas fa-star text-primary"></i>
-                            <i class="fas fa-star text-primary"></i>
-                            <i class="fas fa-star text-primary"></i>
-                            <i class="fas fa-star text-primary"></i>
-                            <i class="fas fa-star text-primary"></i>
-                        </div>
+    <!-- Features and Statistics Start -->
+    <div class="container-fluid py-5 bg-light">
+        <div class="container text-center">
+            <h4 class="text-primary">Our Offerings</h4>
+            <h1 class="display-5 mb-4">Why Choose Us</h1>
+            <div class="row g-4">
+                <div class="col-md-4">
+                    <div class="feature-item bg-white p-4 rounded shadow h-100">
+                        <i class="fas fa-bullhorn fa-3x mb-3"></i>
+                        <h5>Email Campaigns</h5>
+                        <p>Craft effective campaigns that engage your audience.</p>
                     </div>
                 </div>
-            </div>
-            <div class="testimonial-item" data-dot="<img class='img-fluid' src='img/testimonial-img-2.jpg' alt=''>">
-                <div class="testimonial-inner text-center p-5">
-                    <div class="d-flex align-items-center justify-content-center mb-4">
-                        <div class="testimonial-inner-img border border-primary border-3 me-4" style="width: 100px; height: 100px; border-radius: 50%;">
-                            <img src="img/testimonial-img-2.jpg" class="img-fluid rounded-circle" alt="">
-                        </div>
-                        <div>
-                            <h5 class="mb-2">Emily Davis</h5>
-                            <p class="mb-0">Los Angeles, USA</p>
-                        </div>
-                    </div>
-                    <p class="fs-7">The service was outstanding! Our open rates increased, and our audience engagement improved dramatically. Highly recommend!</p>
-                    <div class="text-center">
-                        <div class="d-flex justify-content-center">
-                            <i class="fas fa-star text-primary"></i>
-                            <i class="fas fa-star text-primary"></i>
-                            <i class="fas fa-star text-primary"></i>
-                            <i class="fas fa-star text-primary"></i>
-                            <i class="fas fa-star text-primary"></i>
-                        </div>
+                <div class="col-md-4">
+                    <div class="feature-item bg-white p-4 rounded shadow h-100">
+                        <i class="fas fa-chart-line fa-3x mb-3"></i>
+                        <h5>Analytics</h5>
+                        <p>Track performance with detailed analytics.</p>
                     </div>
                 </div>
-            </div>
-            <div class="testimonial-item" data-dot="<img class='img-fluid' src='img/testimonial-img-3.jpg' alt=''>">
-                <div class="testimonial-inner text-center p-5">
-                    <div class="d-flex align-items-center justify-content-center mb-4">
-                        <div class="testimonial-inner-img border border-primary border-3 me-4" style="width: 100px; height: 100px; border-radius: 50%;">
-                            <img src="img/testimonial-img-3.jpg" class="img-fluid rounded-circle" alt="">
-                        </div>
-                        <div>
-                            <h5 class="mb-2">Michael Smith</h5>
-                            <p class="mb-0">Chicago, USA</p>
-                        </div>
+                <div class="col-md-4">
+                    <div class="feature-item bg-white p-4 rounded shadow h-100">
+                        <i class="fas fa-users fa-3x mb-3"></i>
+                        <h5>Customer Support</h5>
+                        <p>Our team is here to help you every step of the way.</p>
                     </div>
-                    <p class="fs-7">Fantastic experience! The team was professional, and our results improved faster than we expected. A real pleasure to work with!</p>
-                    <div class="text-center">
-                        <div class="d-flex justify-content-center">
-                            <i class="fas fa-star text-primary"></i>
-                            <i class="fas fa-star text-primary"></i>
-                            <i class="fas fa-star text-primary"></i>
-                            <i class="fas fa-star text-primary"></i>
-                            <i class="fas fa-star text-primary"></i>
-                        </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="feature-item bg-white p-4 rounded shadow h-100">
+                        <i class="fas fa-mobile-alt fa-3x mb-3"></i>
+                        <h5>Mobile Optimization</h5>
+                        <p>Ensure your emails look great on any device.</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="feature-item bg-white p-4 rounded shadow h-100">
+                        <i class="fas fa-lock fa-3x mb-3"></i>
+                        <h5>Security</h5>
+                        <p>Your data is secure with our top-notch protections.</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="feature-item bg-white p-4 rounded shadow h-100">
+                        <i class="fas fa-cogs fa-3x mb-3"></i>
+                        <h5>Automation</h5>
+                        <p>Automate your campaigns for maximum efficiency.</p>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-</div>
-<!-- Testimonial End -->
+    <!-- Features and Statistics End -->
 
-
-
-
-<!-- Call to Action Start -->
-<div class="container-fluid py-5 bg-light text-center">
-    <h1 class="display-4 text-primary">Ready to Transform Your Email Marketing?</h1>
-    <a href="contact.html" class="btn btn-primary btn-lg mt-4" style="padding: 15px 30px; font-size: 1.5rem;">
-        <i class="fas fa-paper-plane"></i> Get Started Today!
-    </a>
-</div>
-<!-- Call to Action End -->
-
-
-
-
-        <!-- Back to Top -->
-        <a href="#" class="btn btn-primary btn-lg-square back-to-top"><i class="fa fa-arrow-up"></i></a>   
-
+    <!-- Testimonial Start -->
+    <div class="container-fluid testimonial py-5">
+        <div class="container py-5">
+            <div class="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 900px;">
+                <h4 class="text-primary">Testimonials</h4>
+                <h1 class="display-5 mb-4">What Our Clients Say</h1>
+                <p class="mb-0">Our clients love us! Here’s what they have to say about their experience with our services.</p>
+            </div>
+            <div class="testimonial-carousel owl-carousel wow zoomInDown" data-wow-delay="0.2s">
+                <div class="testimonial-item" data-dot="<img class='img-fluid' src='img/testimonial-img-1.jpg' alt=''>">
+                    <div class="testimonial-inner text-center p-5">
+                        <div class="d-flex align-items-center justify-content-center mb-4">
+                            <div class="testimonial-inner-img border border-primary border-3 me-4" style="width: 100px; height: 100px; border-radius: 50%;">
+                                <img src="img/testimonial-img-1.jpg" class="img-fluid rounded-circle" alt="">
+                            </div>
+                            <div>
+                                <h5 class="mb-2">John Abraham</h5>
+                                <p class="mb-0">New York, USA</p>
+                            </div>
+                        </div>
+                        <p class="fs-7">Working with this team was a game-changer. They helped us reach more customers and improve our email campaigns significantly!</p>
+                        <div class="text-center">
+                            <div class="d-flex justify-content-center">
+                                <i class="fas fa-star text-warning"></i>
+                                <i class="fas fa-star text-warning"></i>
+                                <i class="fas fa-star text-warning"></i>
+                                <i class="fas fa-star text-warning"></i>
+                                <i class="fas fa-star-half-alt text-warning"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-item" data-dot="<img class='img-fluid' src='img/testimonial-img-2.jpg' alt=''>">
+                    <div class="testimonial-inner text-center p-5">
+                        <div class="d-flex align-items-center justify-content-center mb-4">
+                            <div class="testimonial-inner-img border border-primary border-3 me-4" style="width: 100px; height: 100px; border-radius: 50%;">
+                                <img src="img/testimonial-img-2.jpg" class="img-fluid rounded-circle" alt="">
+                            </div>
+                            <div>
+                                <h5 class="mb-2">Sarah Connor</h5>
+                                <p class="mb-0">London, UK</p>
+                            </div>
+                        </div>
+                        <p class="fs-7">The customer support is excellent! They are always ready to assist and provide valuable insights.</p>
+                        <div class="text-center">
+                            <div class="d-flex justify-content-center">
+                                <i class="fas fa-star text-warning"></i>
+                                <i class="fas fa-star text-warning"></i>
+                                <i class="fas fa-star text-warning"></i>
+                                <i class="fas fa-star text-warning"></i>
+                                <i class="fas fa-star text-warning"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-item" data-dot="<img class='img-fluid' src='img/testimonial-img-3.jpg' alt=''>">
+                    <div class="testimonial-inner text-center p-5">
+                        <div class="d-flex align-items-center justify-content-center mb-4">
+                            <div class="testimonial-inner-img border border-primary border-3 me-4" style="width: 100px; height: 100px; border-radius: 50%;">
+                                <img src="img/testimonial-img-3.jpg" class="img-fluid rounded-circle" alt="">
+                            </div>
+                            <div>
+                                <h5 class="mb-2">Emily Rose</h5>
+                                <p class="mb-0">Toronto, Canada</p>
+                            </div>
+                        </div>
+                        <p class="fs-7">Mailler has streamlined our email marketing efforts. We couldn't be happier with the results!</p>
+                        <div class="text-center">
+                            <div class="d-flex justify-content-center">
+                                <i class="fas fa-star text-warning"></i>
+                                <i class="fas fa-star text-warning"></i>
+                                <i class="fas fa-star text-warning"></i>
+                                <i class="fas fa-star text-warning"></i>
+                                <i class="fas fa-star text-warning"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn btn-primary rounded-pill" style="display: block; width: 200px; margin: 20px auto; padding: 10px 20px; font-size: 16px; text-align: center;">
+            <i class="fa fa-arrow-up"></i> Go Back Up
+        </a>
         
+    </div>
+    <!-- Testimonial End -->
+    
+    
+
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-primary btn-lg-square back-to-top"><i class="fa fa-arrow-up"></i></a>
+
     <!-- JavaScript Libraries -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
@@ -259,10 +236,9 @@
     <script src="lib/counterup/counterup.min.js"></script>
     <script src="lib/owlcarousel/owl.carousel.min.js"></script>
     <script src="lib/lightbox/js/lightbox.min.js"></script>
-    
 
     <!-- Template Javascript -->
     <script src="js/main.js"></script>
-    </body>
+</body>
 
 </html>
